@@ -20,8 +20,4 @@ class Shoes extends Product {
   getProductDetails() {
     return `${this.name} - ${this.size} - ${this.price} eur`;
   }
-
-  setSize(newSize) {
-    this.size = newSize;
-  }
 }
